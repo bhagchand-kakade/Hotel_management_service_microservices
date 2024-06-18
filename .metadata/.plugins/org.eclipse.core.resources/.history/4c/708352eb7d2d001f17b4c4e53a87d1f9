@@ -1,0 +1,36 @@
+package com.app.hotelbooking.entity;
+
+import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Hatel")
+public class Hotel {
+
+	@Id
+	@Column
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	private String hotelId;
+	private String hotelName;
+
+	public String getHotelId() {
+		return hotelId;
+	}
+
+	public void setHotelId(String hotelId) {
+		this.hotelId = hotelId;
+	}
+
+	public String getHotelName() {
+		return hotelName;
+	}
+
+	public void setHotelName(String hotelName) {
+		this.hotelName = hotelName;
+	}
+}

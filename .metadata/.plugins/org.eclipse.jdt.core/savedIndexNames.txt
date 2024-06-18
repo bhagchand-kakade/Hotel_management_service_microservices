@@ -46,7 +46,6 @@ INDEX VERSION 1.132+C:\Users\2216159\Core_Java\Hotel_management_service_microser
 2267687961.index
 4027324642.index
 2862453921.index
-1048745388.index
 3444601912.index
 1662795760.index
 864332646.index

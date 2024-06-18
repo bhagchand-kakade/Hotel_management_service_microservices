@@ -1,0 +1,13 @@
+package com.app.hotelbooking.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="Rooms")
+public class Room {
+
+	private String roomId;
+	private int capacity;
+	private String type;
+}

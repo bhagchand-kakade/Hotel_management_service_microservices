@@ -1,0 +1,28 @@
+package com.app.hotelbooking.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Hatel")
+public class Hotel {
+
+	private String hotelId;
+	private String hotelName;
+
+	public String getHotelId() {
+		return hotelId;
+	}
+
+	public void setHotelId(String hotelId) {
+		this.hotelId = hotelId;
+	}
+
+	public String getHotelName() {
+		return hotelName;
+	}
+
+	public void setHotelName(String hotelName) {
+		this.hotelName = hotelName;
+	}
+}
